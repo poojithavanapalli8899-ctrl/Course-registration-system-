@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Registration System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        form {
+            width: 350px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Course Registration Form</h2>
+
+    <form>
+        <label>Student Name:</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Roll Number:</label>
+        <input type="text" placeholder="Enter roll number" required>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter email" required>
+
+        <label>Select Course:</label>
+        <select required>
+            <option value="">--Select Course--</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Python</option>
+            <option>Java</option>
+        </select>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
